@@ -17,3 +17,4 @@
 
 # Ignore the key
 /.secret
+bundler_stubs/
