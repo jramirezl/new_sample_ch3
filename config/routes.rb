@@ -1,6 +1,6 @@
 NewSampleCh3::Application.routes.draw do
   get "users/new"
-
+  resources :sessions, only: [:new, :create, :destroy]
   root  'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/help',    to: 'static_pages#help',    via: 'get'
