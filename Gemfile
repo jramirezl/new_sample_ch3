@@ -9,6 +9,7 @@ gem 'bcrypt-ruby', '3.1.2'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails'
+  gem "thin"
 end
 
 group :test do
